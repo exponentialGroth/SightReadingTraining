@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/game_play">
+
+        <EditTextPreference
+            app:key="@string/lowest_tone_key"
+            app:title="@string/lowest_tone_title"
+            app:defaultValue="f"
+            app:useSimpleSummaryProvider="true"/>
+
+        <EditTextPreference
+            app:key="@string/highest_tone_key"
+            app:title="@string/highest_tone_title"
+            app:defaultValue="c3"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/pause_key"
+            app:title="@string/pause_title"
+            app:defaultValue="1"
+            app:useSimpleSummaryProvider="true"
+            app:dialogMessage="Duration in seconds" />
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/session_ending_entries"
+            app:entryValues="@array/session_ending_values"
+            app:key="@string/session_ending_key"
+            app:title="@string/session_ending_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/num_of_rounds_key"
+            app:title="@string/num_of_rounds_title"
+            app:defaultValue="10"
+            app:useSimpleSummaryProvider="true"
+            app:isPreferenceVisible="false"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

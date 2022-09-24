@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Sight-reading-training</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="game_play">Gameplay</string>
+
+    <!-- Gameplay Preferences -->
+    <string name="lowest_tone_key">lowest_tone</string>
+    <string name="lowest_tone_title">Lowest tone</string>
+
+    <string name="highest_tone_key">highest_tone</string>
+    <string name="highest_tone_title">Highest tone</string>
+
+    <string name="pause_key">pause</string>
+    <string name="pause_title">Pause before next note (in s)</string>
+
+    <string name="session_ending_key">session_ending</string>
+    <string name="session_ending_title">End of session</string>
+    <string name="session_ending_value_1">After wrong answer</string>
+    <string name="session_ending_value_2">After certain number of rounds</string>
+
+    <string name="num_of_rounds_key">num_of_rounds</string>
+    <string name="num_of_rounds_title">Number of rounds</string>
+
+
+    <!-- activity_main.mxl -->
+    <string name="start_btn">Start Session</string>
+    <string name="settings">Settings</string>
+    <string name="duration_display">Avg. Duration: %1$s</string>
+    <string name="streak_display">Streak: %1$s</string>
+    <string name="percentage_display">Percentage: %1$s</string>
+    <string name="note">note</string>
+
+    <!-- activity_summary.xml -->
+    <string name="back">Back</string>
+
+</resources>
